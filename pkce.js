@@ -1,3 +1,5 @@
+// THE FOLLOWING LINES ARE MOSTLY INSPIRED FROM - https://github.com/tonyxu-io/pkce-generator
+
 var generateCodeVerifier = () => 
 {
     var code_verifier = window.localStorage.getItem("code_verifier");
